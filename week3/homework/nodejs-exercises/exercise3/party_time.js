@@ -15,10 +15,3 @@ const makeReservation = function(url, body) {
 };
 
 makeReservation(URL, people);
-
-
-// axios
-// .post(URL, people)
-//   .then(response=> console.log(response))
-//   .then(response=> console.log(response.data))
-//   .catch(error=> console.log(error.response.status, error.response.statusText))
